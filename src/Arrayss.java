@@ -1,4 +1,4 @@
-public class Arrays {
+public class Arrayss {
     public static void main(String[] args) {
     //    int[] arr = {45,22,89,11,77,56};
     //    int max = Integer.MIN_VALUE , min = Integer.MAX_VALUE;

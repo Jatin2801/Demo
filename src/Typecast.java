@@ -12,6 +12,7 @@ public class Typecast {
 
      Dogg d = (Dogg) a; //downcasting
         d.fetch();
+        d.sound();
     }
 }
 

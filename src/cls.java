@@ -1,6 +1,7 @@
 public class cls {
     public static void main(String[] args) {
-     //   Book book1 = new Book();
+        @SuppressWarnings("unused") // annotation to supress book1 warning
+        Book book1 = new Book();
         Book book2 = new Book("Aaa","bbb");
         System.out.println("----Book 2 Info----");
         book2.displayInfo();

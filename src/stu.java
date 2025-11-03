@@ -13,12 +13,12 @@ class stu_menu {
     public int getRollNo() {
         return rollNo;
     }
-    private void setRollNo(int rollNo) {
-        this.rollNo = rollNo;
-    }
-    private double getMarks() {
-        return marks;
-    }
+    // private void setRollNo(int rollNo) {
+    //     this.rollNo = rollNo;
+    // }
+    // private double getMarks() {
+    //     return marks;
+    // }
     public void setMarks(double marks) {
         this.marks = marks;
     }
@@ -84,11 +84,9 @@ public class stu {
                 case 3:
                     System.out.print("Enter Roll No to search: ");
                     int searchRollNo = sc.nextInt();
-                    boolean found = false;
                     for(stu_menu s : students){
                         if(s!=null && s.getRollNo() == searchRollNo){
                             s.displayInfo();
-                            found = true;
                             break;
                         }
                     }
